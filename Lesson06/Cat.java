@@ -29,5 +29,14 @@ public class Cat extends Animal {
         }
     }
 
+    public void canSwim(int swimDist){
+        if (swimDist == swimMaxDistance){
+            System.out.println(" I just wait");
+        }else{
+            System.out.println("Cat can not swim");
+        }
+    }
+
+
 
 }

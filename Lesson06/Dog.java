@@ -20,4 +20,12 @@ public class Dog extends Animal {
         }
     }
 
+    public void canSwim(int swimDist){
+        if (swimDist <= swimMaxDistance){
+            System.out.println(" Dog can swim " + swimDist);
+        }else{
+            System.out.println("Dog can swim only " + swimMaxDistance + " from " +swimDist);
+        }
+    }
+
 }
