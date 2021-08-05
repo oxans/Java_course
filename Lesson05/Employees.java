@@ -32,7 +32,6 @@ public class Employees {
  //        this.salary = 6000;
  //        this.age = 40;
  //        infoEmp(FIO, role, eMail,phoneNumber,salary,age);
-
  //   }
 
 
