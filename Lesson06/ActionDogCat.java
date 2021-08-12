@@ -3,6 +3,7 @@ import Lesson06.model.Animal;
 
 public class ActionDogCat {
     int CounterAnimals = 0;
+    StringBuffer sb = new StringBuffer("Кит");
 
     public static void main(String[] args){
 
